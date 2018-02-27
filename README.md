@@ -13,5 +13,5 @@ It is much easier to encrypt a file tree using \*nix than windows.  These batch 
 - ```wg-decrypt some-directory``` Takes an input directory parameter.  Recurses down the tree and decrypts all files into a new directory called wg-decrypted.
 
 ## improvements
-- password should not use Passphrase: it is not command line history secure.
+- password should not use ```Passphrase:``` it is not command line history secure.
 - encrypt and decrypt output directories should be command line options.
