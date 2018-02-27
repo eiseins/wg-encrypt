@@ -8,7 +8,7 @@ NO WARRANTY.  NO LIABILITY.  SEE LICENSE.
 It is much easier to encrypt a file tree using \*nix than windows.  These batch files make it a little easier.
 
 ## usage
-- ```install gpg```
+- install gpg
 - ```wg-encrypt some-directory``` Takes an input directory parameter.  Recurses down the tree and encrypts all files into a new directory called wg-encrypted.
 - ```wg-decrypt some-directory``` Takes an input directory parameter.  Recurses down the tree and decrypts all files into a new directory called wg-decrypted.
 
